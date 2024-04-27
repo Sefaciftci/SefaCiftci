@@ -4,6 +4,8 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { useState } from "react";
+import profile from './assets/profile.jpeg';
+import resume from './resume/Sefa.Ciftci.pdf';
 
 function App() {
 
@@ -35,13 +37,13 @@ function App() {
             </p>
 
             <div className="flex justify-center text-4xl my-8 md:my-16 gap-10 text-gray-600 dark:text-gray-500 ">
-              <a className="cursor-pointer hover:text-gray-900 ease-in duration-300 hover:dark:text-gray-600">
+              <a href="https://www.linkedin.com/in/sefaciftci/" className="cursor-pointer hover:text-gray-900 ease-in duration-300 hover:dark:text-gray-600">
                 <FaLinkedin />
               </a>
-              <a className="cursor-pointer hover:text-gray-900 ease-in duration-300 hover:dark:text-gray-600">
+              <a href="https://github.com/Sefaciftci" className="cursor-pointer hover:text-gray-900 ease-in duration-300 hover:dark:text-gray-600">
                 <FaGithub />
               </a>
-              <a className="cursor-pointer hover:text-gray-900 ease-in duration-300 hover:dark:text-gray-600">
+              <a href="mailto:sefaciftci.cs@gmail.com" className="cursor-pointer hover:text-gray-900 ease-in duration-300 hover:dark:text-gray-600">
                 <SiGmail />
               </a>
             </div>
@@ -49,8 +51,8 @@ function App() {
 
           <div className="flex justify-center mx-auto my-8 md:w-1/2 ">
             <img
-              className="w-60 h-60  rounded-full"
-              src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+              className="w-60 h-60 md:w-75 md:h-75 object-cover rounded-full"
+              src={profile}
             ></img>
           </div>
 
@@ -58,7 +60,7 @@ function App() {
         </div>
 
           <div className="flex justify-center py-6">
-            <a className="py-4 px-10  text-xl rounded-lg cursor-pointer bg-gray-600 text-white hover:bg-gray-900 focus: ease-in duration-300 dark:hover:bg-slate-500">
+            <a  href={resume} download={resume} className="py-4 px-10  text-xl rounded-lg cursor-pointer bg-gray-600 text-white hover:bg-gray-900 focus: ease-in duration-300 dark:hover:bg-slate-500">
             Resume
             </a>
           </div>
