@@ -28,7 +28,7 @@ function App() {
           </ul>
         </nav>
 
-        <div className="md:flex shadow-xl">
+        <div className="md:flex shadow-lg">
           <div className="text-center py-10  md:w-1/2 dark:text-white ">
             <h3 className="text-4xl mb-3 tracking-wide">SEFA ÇİFTÇİ</h3>
             <h6 className="text-xl text-gray-900 mb-5 dark:text-white"> Software Developer </h6>
