@@ -33,9 +33,7 @@ function App() {
             <h3 className="text-4xl mb-3 tracking-wide">SEFA ÇİFTÇİ</h3>
             <h6 className="text-xl text-gray-900 mb-5 dark:text-white"> Software Developer </h6>
             <p className="text-gray-700 md:my-8 dark:text-white">
-              Merhaba, ben Sefa. Frontend geliştiricisiyim. Yeniliklere açık, öğrenmeye istekli ve takım çalışmasına yatkın
-              biriyim. Kendimi sürekli geliştirmeye ve yeni bilgiler edinmeye
-              çalışıp bireysel gelişimime önem veririm.
+            Merhaba, ben Sefa. Frontend geliştiricisiyim. Yeniliklere açık, öğrenmeye istekli ve takım çalışmasına yatkın biriyim. Kendimi sürekli geliştirmeye ve yeni bilgiler edinmeye çalışırım, bireysel gelişimime önem veririm.
             </p>
 
             <div className="flex justify-center text-4xl my-8 md:my-16 gap-10 text-gray-600 dark:text-gray-500 ">
